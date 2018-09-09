@@ -26,5 +26,5 @@ titanic_original1$embarked [which (is.na(titanic_original1$embarked))] <- "S"
 
 titanic_original1$age[which (is.na(titanic_original1$age))] <- mean(titanic_original1$age , na.rm= TRUE)
 
-write_csv(titanic_original1,"titanic_clean.csv")
+write_csv(titanic_original1, "titanic_clean.csv" )
 
